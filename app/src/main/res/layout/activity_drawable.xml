@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <View
+            android:id="@+id/view1"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"/>
+
+        <View
+            android:id="@+id/view2"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"/>
+
+        <View
+            android:id="@+id/view3"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"/>
+
+        <View
+            android:id="@+id/view4"
+            android:layout_marginTop="5dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+
+        <View
+            android:id="@+id/view5"
+            android:clickable="true"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"/>
+
+        <View
+            android:id="@+id/view6"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"/>
+
+        <View
+            android:id="@+id/view7"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.core.widget.NestedScrollView>

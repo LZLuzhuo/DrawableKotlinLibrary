@@ -1,0 +1,3 @@
+include ':lib_drawable_ktx'
+include ':app'
+rootProject.name = "DrawableKotlinLibrary"
